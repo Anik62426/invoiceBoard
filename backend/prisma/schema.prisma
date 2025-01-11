@@ -21,6 +21,7 @@ model User {
   phoneNumber    String
   panCardNumber  String @unique
   password       String
+  admin          Boolean @default(false)
 }
 
 model Campaign {
@@ -28,5 +29,6 @@ model Campaign {
   name    String
   panCard String  @unique
   budget  Float
-  createdAt DateTime @default(now())
+  status  Boolean @default(false)
+  createdAt DateTime @default(now()) 
 }

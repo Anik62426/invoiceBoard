@@ -1,0 +1,4 @@
+name,panCard,budget
+John Doe,ABCDE1234F,1000.5
+Jane Smith,FGHIJ5678K,2000.75
+Invalid User,INVALIDPAN,500.0
